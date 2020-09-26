@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Report">
+<EditText
+    android:id="@+id/textid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Id"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    ></EditText>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:text="Search"
+        ></Button>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:orientation="horizontal"
+    android:background="@color/cardview_dark_background"
+    android:layout_marginTop="80dp"
+    android:layout_marginLeft="10dp"
+    >
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:text="User Id"
+        ></TextView>
+   <TextView
+
+       android:layout_width="50dp"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="10dp"
+       android:textSize="15dp"
+       android:textColor="@color/colorAccent"
+       android:textStyle="bold"
+       android:text="Bin No"
+       ></TextView>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:text="Area"
+        ></TextView>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:text="Status"
+        ></TextView>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:text="Time"
+        ></TextView>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:text="Driver"></TextView>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal"
+        android:background="@color/cardview_dark_background"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/bino"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:hint="Bin No"
+            ></TextView>
+        <TextView
+            android:id="@+id/area"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:hint="Area"
+            ></TextView>
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:hint="Status"
+            ></TextView>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+          android:hint="Time"
+            ></TextView>
+        <TextView
+         android:id="@+id/drivername"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:hint="Driver"></TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

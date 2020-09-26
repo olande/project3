@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Reportmaking">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="WEEKLY REPORT"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    ></TextView>
+
+    <CheckBox android:id="@+id/monday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        />
+    <CheckBox android:id="@+id/tuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuesady"
+        />
+    <CheckBox android:id="@+id/wensday"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wenesday"
+        />
+    <CheckBox android:id="@+id/thursday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        />
+    <CheckBox android:id="@+id/friday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friday"
+        />
+    <CheckBox android:id="@+id/sartuday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sartuday"
+        />
+    <CheckBox android:id="@+id/sunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunday"
+        />
+    <Spinner
+    android:id="@+id/spinner"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+    android:gravity="center"></Spinner>
+
+
+</LinearLayout>

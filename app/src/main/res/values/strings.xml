@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GARBAGE MANAGEMENT SYSTEM</string>
+    <string name="title_activity_googlemap">Map</string>
+    <string name="title_activity_googleemap">Map</string>
+    <string name="title_activity_mgooglemap">Map</string>
+    <string name="title_activity_kisiilgooglemap">Map</string>
+    <string name="title_activity_olandegooglemap">Map</string>
+</resources>
